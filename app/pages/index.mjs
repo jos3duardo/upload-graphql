@@ -22,16 +22,16 @@ export default function IndexPage() {
       null,
       h(Heading, { level: 1, size: 1 }, "Apollo upload examples")
     ),
-    h(
-      Section,
-      null,
-      h(
-        Header,
-        null,
-        h(Heading, { level: 2, size: 2 }, "Upload ", h(Code, null, "FileList"))
-      ),
-      h(Margin, null, h(UploadFileList))
-    ),
+    // h(
+    //   Section,
+    //   null,
+    //   h(
+    //     Header,
+    //     null,
+    //     h(Heading, { level: 2, size: 2 }, "Upload ", h(Code, null, "FileList"))
+    //   ),
+    //   h(Margin, null, h(UploadFileList))
+    // ),
     h(
       Section,
       null,
@@ -42,16 +42,16 @@ export default function IndexPage() {
       ),
       h(Margin, null, h(UploadFile))
     ),
-    h(
-      Section,
-      null,
-      h(
-        Header,
-        null,
-        h(Heading, { level: 2, size: 2 }, "Upload ", h(Code, null, "Blob"))
-      ),
-      h(Margin, null, h(UploadBlob))
-    ),
-    h(Section, null, h(Header, null, h(Heading, null, "Uploads")), h(Uploads))
+    // h(
+    //   Section,
+    //   null,
+    //   h(
+    //     Header,
+    //     null,
+    //     h(Heading, { level: 2, size: 2 }, "Upload ", h(Code, null, "Blob"))
+    //   ),
+    //   h(Margin, null, h(UploadBlob))
+    // ),
+    // h(Section, null, h(Header, null, h(Heading, null, "Uploads")), h(Uploads))
   );
 }
